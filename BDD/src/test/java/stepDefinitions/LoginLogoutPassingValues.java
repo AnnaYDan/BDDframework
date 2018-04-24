@@ -13,7 +13,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class LoginLogoutPassingValues {
-	
+	// create object driver from class ChromeDriver
 	WebDriver driver = new ChromeDriver();
 	
 	@Given("^I am on at newtours homepage \"(.*?)\"$")
